@@ -1,0 +1,135 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title></title>
+  </head>
+    <body class="text-center" style="background-color:black;">
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    <form name='linkget' action='/formresult' method = 'post'>
+      <img class="mb-4" src="https://i.ibb.co/DYxN1fm/122290051-358161408735260-8957979510757164291-n.jpg" width="250"><br>
+    <h1 style="color:white;" class="h3 mb-3 font-weight-normal">Online Examination Form</h1>
+<label style="color:white;" class="h6 mb-3 font-weight-normal">
+	  <input type='text' name='Sname' placeholder="Name" required autofocus><br><br>
+      <input type='text' name='Sroll' size = "4" placeholder="Roll No." required autofocus>
+      <input type='text' name='Sclass' size = "10" placeholder="Class&Section" required autofocus><br><br>
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q1}}</label><br>
+  		<input type="radio" name="1q" value="0" required>
+  		<label>{{q1q1}}</label>
+  		<input type="radio" name="1q" value="1">
+  		<label>{{q1q2}}</label><br>
+  		<input type="radio" name="1q" value="2">
+  		<label>{{q1q3}}</label>
+  		<input type="radio" name="1q" value="3">
+  		<label>{{q1q4}}</label><br><br>
+
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q2}}</label><br>
+  		<input type="radio" name="2q" value="0" required>
+  		<label>{{q2q1}}</label>
+  		<input type="radio" name="2q" value="1">
+  		<label>{{q2q2}}</label><br>
+  		<input type="radio" name="2q" value="2">
+  		<label>{{q2q3}}</label>
+  		<input type="radio" name="2q" value="3">
+  		<label>{{q2q4}}</label><br><br>
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q3}}</label><br>
+  		<input type="radio" name="3q" value="0" required>
+  		<label>{{q3q1}}</label>
+  		<input type="radio" name="3q" value="1">
+  		<label>{{q3q2}}</label><br>
+  		<input type="radio" name="3q" value="2">
+  		<label>{{q3q3}}</label>
+  		<input type="radio" name="3q" value="3">
+  		<label>{{q3q4}}</label><br><br>
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q4}}</label><br>
+  		<input type="radio" name="4q" value="0" required>
+  		<label>{{q4q1}}</label>
+  		<input type="radio" name="4q" value="1">
+  		<label>{{q4q2}}</label><br>
+  		<input type="radio" name="4q" value="2">
+  		<label>{{q4q3}}</label>
+  		<input type="radio" name="4q" value="3">
+  		<label>{{q4q4}}</label><br><br>
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q5}}</label><br>
+  		<input type="radio" name="5q" value="0" required>
+  		<label>{{q5q1}}</label>
+  		<input type="radio" name="5q" value="1">
+  		<label>{{q5q2}}</label><br>
+  		<input type="radio" name="5q" value="2">
+  		<label>{{q5q3}}</label>
+  		<input type="radio" name="5q" value="3">
+  		<label>{{q5q4}}</label><br><br>
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q6}}</label><br>
+  		<input type="radio" name="6q" value="0" required>
+  		<label>{{q6q1}}</label>
+  		<input type="radio" name="6q" value="1">
+  		<label>{{q6q2}}</label><br>
+  		<input type="radio" name="6q" value="2">
+  		<label>{{q6q3}}</label>
+  		<input type="radio" name="6q" value="3">
+  		<label>{{q6q4}}</label><br><br>
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q7}}</label><br>
+  		<input type="radio" name="7q" value="0" required>
+  		<label>{{q7q1}}</label>
+  		<input type="radio" name="7q" value="1">
+  		<label>{{q7q2}}</label><br>
+  		<input type="radio" name="7q" value="2">
+  		<label>{{q7q3}}</label>
+  		<input type="radio" name="7q" value="3">
+  		<label>{{q7q4}}</label><br><br>
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q8}}</label><br>
+  		<input type="radio" name="8q" value="0" required>
+  		<label>{{q8q1}}</label>
+  		<input type="radio" name="8q" value="1">
+  		<label>{{q8q2}}</label><br>
+  		<input type="radio" name="8q" value="2">
+  		<label>{{q8q3}}</label>
+  		<input type="radio" name="8q" value="3">
+  		<label>{{q8q4}}</label><br><br>
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q9}}</label><br>
+  		<input type="radio" name="9q" value="0" required>
+  		<label>{{q9q1}}</label>
+  		<input type="radio" name="9q" value="1">
+  		<label>{{q9q2}}</label><br>
+  		<input type="radio" name="9q" value="2">
+  		<label>{{q9q3}}</label>
+  		<input type="radio" name="9q" value="3">
+  		<label>{{q9q4}}</label><br><br>
+
+<label style="color:white;" class="h4 mb-3 font-weight-normal">{{Q10}}</label><br>
+  		<input type="radio" name="10q" value="0" required>
+  		<label>{{q10q1}}</label>
+  		<input type="radio" name="10q" value="1">
+  		<label>{{q10q2}}</label><br>
+  		<input type="radio" name="10q" value="2">
+  		<label>{{q10q3}}</label>
+  		<input type="radio" name="10q" value="3">
+  		<label>{{q10q4}}</label><br><br>
+  		<input type="submit" value="Submit">
+  		<br><br>
+      <p class="mt-5 mb-3 text-muted">Welcome to Prak EnTech's Online Test App</p><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h3 style="color:white;" class="h3 mb-3 font-weight-normal">Don't Change the TextBox Below</h3>
+  		<input type='text' name='key' size = "3" value='{{Id}}'>
+
+  	</label>
+    </form>
+  </body>
+</html>
