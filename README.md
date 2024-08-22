@@ -47,13 +47,10 @@ This project is an online test web application developed using Flask. It allows 
 
 ## Screenshots
 
-<img src="assets/home.png" alt="Online Examination Screenshot" width="400"/>
-
-![Create Form](assets/create.png)
-
-![Solve](assets/solve.png)
-
-![Submission](assets/submission.png)
+<img src="assets/home.png" alt="Online Examination Screenshot" width="350"/>
+<img src="assets/create.png" alt="Online Examination Screenshot" width="350"/>
+<img src="assets/solve.png" alt="Online Examination Screenshot" width="350"/>
+<img src="assets/submission.png" alt="Online Examination Screenshot" width="350"/>
 
 ## Contact
 
