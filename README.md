@@ -46,11 +46,12 @@ This project is an online test web application developed using Flask. It allows 
 - After submission, the teacher can check the records at `/checksubmissions`.
 
 ## Screenshots
-
+<p align="center">
 <img src="assets/home.png" alt="Online Examination Screenshot" width="350"/>
 <img src="assets/create.png" alt="Online Examination Screenshot" width="350"/>
 <img src="assets/solve.png" alt="Online Examination Screenshot" width="350"/>
 <img src="assets/submission.png" alt="Online Examination Screenshot" width="350"/>
+</p>
 
 ## Contact
 
