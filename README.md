@@ -52,7 +52,7 @@ This project is an online test web application developed using Flask. It allows 
 <img src="assets/create.png" alt="Online Examination Screenshot" width="350" height="600"/>
    <p align="center">
       <img src="assets/submission.png" alt="Online Examination Screenshot" width="350"/>
-   </p>
+   
 </p>
 
 ## Contact
