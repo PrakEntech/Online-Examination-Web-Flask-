@@ -50,7 +50,7 @@ This project is an online test web application developed using Flask. It allows 
 <img src="assets/home.png" alt="Online Examination Screenshot" width="350" height="600"/>
 <img src="assets/solve.png" alt="Online Examination Screenshot" width="350" height="600"/>
 <img src="assets/create.png" alt="Online Examination Screenshot" width="350" height="600"/>
-   <p align="center">
+   <p align="left">
       <img src="assets/submission.png" alt="Online Examination Screenshot" width="350"/>
    
 </p>
