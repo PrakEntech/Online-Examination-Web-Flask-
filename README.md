@@ -36,7 +36,7 @@ This project is an online test web application developed using Flask. It allows 
    ```
 4. Run the Flask application:
    ```bash
-   python app.py
+   python flask_app.py
    ```
 
 ## Usage
